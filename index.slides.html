@@ -14097,39 +14097,17 @@ div.jp-OutputPrompt {
 
 <div class="reveal">
 <div class="slides"><section><section>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<div class="jp-Cell-inputWrapper"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>An Analysis of @SullyBusiness</p>
 
 </div>
-</div></section></section><section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[115]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-r"><pre><span></span><span class="c1"># Printing Bryant&#39;s Olive Garden tweets and the total</span>
-<span class="n">x</span> <span class="o">=</span> <span class="s">&quot;Olive Garden|olive garden|olivegarden|breadstick|Italian&quot;</span>
-<span class="n">tweets_olivegarden</span> <span class="o">=</span> <span class="n">df</span> <span class="o">%&gt;%</span> <span class="nf">filter</span><span class="p">(</span><span class="nf">ifelse</span><span class="p">(</span><span class="nf">grepl</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">Text</span><span class="p">),</span><span class="kc">TRUE</span><span class="p">,</span><span class="kc">FALSE</span><span class="p">))</span> <span class="o">%&gt;%</span> <span class="nf">select</span><span class="p">(</span><span class="n">Text</span><span class="p">)</span>
-<span class="nf">nrow</span><span class="p">(</span><span class="n">tweets_olivegarden</span><span class="p">)</span>
-<span class="n">tweets_olivegarden</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
+</div></section></section><section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-
 
 <div class="jp-OutputArea jp-Cell-outputArea">
 
 <div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
 
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
@@ -14139,10 +14117,6 @@ div.jp-OutputPrompt {
 </div>
 
 <div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
 
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
@@ -14231,34 +14205,13 @@ The folly surrounds us.                                                         
 
 </div>
 
-</div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[114]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-r"><pre><span></span><span class="c1"># Printing Bryant&#39;s tweets related to Chili&#39;s </span>
-<span class="n">x</span> <span class="o">=</span> <span class="s">&quot;Chili&quot;</span>
-<span class="n">tweets_chilis</span> <span class="o">=</span> <span class="n">df</span> <span class="o">%&gt;%</span> <span class="nf">filter</span><span class="p">(</span><span class="nf">ifelse</span><span class="p">(</span><span class="nf">grepl</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">Text</span><span class="p">),</span><span class="kc">TRUE</span><span class="p">,</span><span class="kc">FALSE</span><span class="p">))</span> <span class="o">%&gt;%</span> <span class="nf">select</span><span class="p">(</span><span class="n">Text</span><span class="p">)</span>
-<span class="nf">nrow</span><span class="p">(</span><span class="n">tweets_chilis</span><span class="p">)</span>
-<span class="n">tweets_chilis</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
+</div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-
 
 <div class="jp-OutputArea jp-Cell-outputArea">
 
 <div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
 
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
@@ -14268,10 +14221,6 @@ The folly surrounds us.                                                         
 </div>
 
 <div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
 
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
@@ -14307,62 +14256,13 @@ All &lt;U+0001F4E0&gt; no &lt;U+0001F5A8&gt;.                                   
 
 </div>
 
-</div></section></section><section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[113]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-r"><pre><span></span><span class="c1"># Calculating Top 50 Words in Bryant&#39;s tweets</span>
-<span class="n">df</span> <span class="o">=</span> <span class="nf">read.xlsx2</span><span class="p">(</span><span class="s">&quot;data/@sullybusiness_user_tweets.xlsx&quot;</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="n">header</span><span class="o">=</span><span class="bp">T</span><span class="p">)</span>
-
-<span class="c1"># Remove URL</span>
-<span class="n">df</span><span class="o">$</span><span class="n">Text</span> <span class="o">=</span> <span class="nf">gsub</span><span class="p">(</span><span class="s">&quot;http.*&quot;</span><span class="p">,</span><span class="s">&quot;&quot;</span><span class="p">,</span> <span class="n">df</span><span class="o">$</span><span class="n">Text</span><span class="p">)</span>
-
-<span class="c1"># Remove numbers</span>
-<span class="n">df</span><span class="o">$</span><span class="n">Text</span> <span class="o">=</span> <span class="nf">gsub</span><span class="p">(</span><span class="s">&quot;[[:digit:]]&quot;</span><span class="p">,</span><span class="s">&quot;&quot;</span><span class="p">,</span> <span class="n">df</span><span class="o">$</span><span class="n">Text</span><span class="p">)</span>
-
-<span class="c1"># Split into words</span>
-<span class="n">clean_tweets</span> <span class="o">=</span> <span class="n">df</span> <span class="o">%&gt;%</span> <span class="nf">select</span><span class="p">(</span><span class="n">Tweet.Id</span><span class="p">,</span><span class="n">Text</span><span class="p">)</span> <span class="o">%&gt;%</span> <span class="nf">unnest_tokens</span><span class="p">(</span><span class="n">output</span><span class="o">=</span><span class="n">word</span><span class="p">,</span><span class="n">input</span><span class="o">=</span><span class="n">Text</span><span class="p">)</span>
-
-<span class="c1"># Remove stop words</span>
-<span class="nf">data</span><span class="p">(</span><span class="s">&quot;stop_words&quot;</span><span class="p">)</span>
-<span class="n">cleaned_tweet_words</span> <span class="o">&lt;-</span> <span class="n">clean_tweets</span> <span class="o">%&gt;%</span>
-  <span class="nf">anti_join</span><span class="p">(</span><span class="n">stop_words</span><span class="p">)</span>
-
-<span class="c1"># Print to csv</span>
-<span class="n">wordfreq</span> <span class="o">=</span> <span class="n">cleaned_tweet_words</span> <span class="o">%&gt;%</span> <span class="nf">count</span><span class="p">(</span><span class="n">word</span><span class="p">,</span> <span class="n">sort</span><span class="o">=</span><span class="kc">TRUE</span><span class="p">)</span>
-<span class="nf">write.csv</span><span class="p">(</span><span class="n">wordfreq</span><span class="p">,</span><span class="s">&quot;data/wordfreq.csv&quot;</span><span class="p">,</span> <span class="n">row.names</span> <span class="o">=</span> <span class="kc">FALSE</span><span class="p">)</span>
-
-<span class="c1"># Graph top words</span>
-<span class="n">cleaned_tweet_words</span> <span class="o">%&gt;%</span>
-  <span class="nf">count</span><span class="p">(</span><span class="n">word</span><span class="p">,</span> <span class="n">sort</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">)</span> <span class="o">%&gt;%</span>
-  <span class="nf">top_n</span><span class="p">(</span><span class="m">25</span><span class="p">)</span> <span class="o">%&gt;%</span>
-  <span class="nf">mutate</span><span class="p">(</span><span class="n">word</span> <span class="o">=</span> <span class="nf">reorder</span><span class="p">(</span><span class="n">word</span><span class="p">,</span> <span class="n">n</span><span class="p">))</span> <span class="o">%&gt;%</span>
-  <span class="nf">ggplot</span><span class="p">(</span><span class="nf">aes</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">word</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">n</span><span class="p">))</span> <span class="o">+</span>
-  <span class="nf">geom_col</span><span class="p">()</span> <span class="o">+</span>
-  <span class="nf">xlab</span><span class="p">(</span><span class="kc">NULL</span><span class="p">)</span> <span class="o">+</span>
-  <span class="nf">coord_flip</span><span class="p">()</span> <span class="o">+</span>
-      <span class="nf">labs</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="s">&quot;Count&quot;</span><span class="p">,</span>
-      <span class="n">y</span> <span class="o">=</span> <span class="s">&quot;Unique words&quot;</span><span class="p">,</span>
-      <span class="n">title</span> <span class="o">=</span> <span class="s">&quot;Top 50 words found in @sullybusinesss tweets&quot;</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
+</div></section></section><section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-
 
 <div class="jp-OutputArea jp-Cell-outputArea">
 
 <div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
 <pre>Joining, by = &#34;word&#34;
@@ -14372,10 +14272,6 @@ Selecting by n
 </div>
 
 <div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
 
 
 
@@ -14651,35 +14547,13 @@ IhGiAItEiAL/B0TScccYpSoNAAAAAElFTkSuQmCC"
 
 </div>
 
-</div></section></section><section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[100]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-r"><pre><span></span><span class="c1"># Creating word cloud of words commonly found in Bryant&#39;s tweets</span>
-
-<span class="nf">set.seed</span><span class="p">(</span><span class="m">333</span><span class="p">)</span>
-<span class="nf">wordcloud</span><span class="p">(</span><span class="n">words</span> <span class="o">=</span> <span class="n">wordfreq</span><span class="o">$</span><span class="n">word</span><span class="p">,</span> <span class="n">freq</span> <span class="o">=</span> <span class="n">wordfreq</span><span class="o">$</span><span class="n">n</span><span class="p">,</span> <span class="n">min.freq</span> <span class="o">=</span> <span class="m">1</span><span class="p">,</span>
-          <span class="n">max.words</span><span class="o">=</span><span class="m">100</span><span class="p">,</span> <span class="n">random.order</span><span class="o">=</span><span class="kc">FALSE</span><span class="p">,</span> <span class="n">rot.per</span><span class="o">=</span><span class="m">0.35</span><span class="p">,</span> 
-          <span class="n">colors</span><span class="o">=</span><span class="nf">brewer.pal</span><span class="p">(</span><span class="m">8</span><span class="p">,</span> <span class="s">&quot;Spectral&quot;</span><span class="p">))</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
+</div></section></section><section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-
 
 <div class="jp-OutputArea jp-Cell-outputArea">
 
 <div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
 
 
 
@@ -15646,7 +15520,7 @@ require(
         Reveal.addEventListener('slidechanged', update);
 
         function setScrollingSlide() {
-            var scroll = true
+            var scroll = false
             if (scroll === true) {
               var h = $('.reveal').height() * 0.95;
               $('section.present').find('section')
